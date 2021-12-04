@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200&family=Roboto+Condensed:wght@300&family=Zen+Kurenaido&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+}
+ul li{
+    list-style: none;
+}
+/* ----------------------- info-Nav ---------------  */
+.info_nav{
+    background: rgba(255,216,80,255);
+    padding: 1rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+.fas,.fab{
+    font-size: 20px;
+}
+ /* ----------------------------- Nav-bar -----------------  */
+
+ .logo-text{
+     font-size: 25px;
+     font-weight: bold;
+ }
+ .navbar-nav{
+    margin-left: auto;
+ }
+ .nav-item{
+     margin-left: 2rem;
+ }
+ .nav-item a{
+     font-weight: bold;
+ }
+.nav-item a:hover{
+    border-bottom: 2px solid rgba(255,216,80,255);
+}
+/* ------------------------------- Hero Section --------------  */
+.Hero-section{
+    border: 2px solid black;
+    background-image:
+    linear-gradient(to left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.555)),
+    url('images/bg1.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    
+}
+.hero_Text{
+    /* border: 2px solid red; */
+    /* height: 70vh; */
+    padding: 2rem;
+    color: White;
+ 
+}
+
+form{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+.headingList li{
+list-style: none;
+}
+.fa-check-circle{
+color: rgba(255,216,80,255);
+}
+.listPoints,.headingP1,.headingP2{
+    font-weight: bold;
+    margin: 20px 0px 0px 20px;
+    margin-bottom: 5px;
+
+}
+
+.headingH1 {
+    margin: 20px 0px 0px 20px;
+    font-size: 50px;
+    font-weight: bold;
+
+}
+.headerBtn2{
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-left: 15px;
+}
+.headerBtn2:hover{
+    background: white;
+    color: rgba(255,61,77,255);
+   
+}
+.headerBtn1{
+    font-weight: bold;
+    margin-left: 35px;
+
+}
+.form-control{
+    margin: 0 auto;
+    margin-top: 100px;
+    width: 300px;
+    background: #ff3d4d;
+    color: white;
+    border-radius: 10px;
+   
+
+}
+.form-control input{
+    padding: 5px;
+    background: transparent;
+    border: 2px solid  rgba(255,255,255,255);
+    border-radius: 5px;
+    margin-bottom: 10px;
+    color: white;
+}
+/* ------------------ Welcome Part ----------------------  */
+.welcome{
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+
+}
+.welcome h1{
+    font-weight: bold;
+}
+
+/* ------------------------------- work-Process ----------------  */
+.work-Process{
+    text-align: center;
+    /* height: 80vh; */
+    border: 2px solid black;
+    background-image:
+    linear-gradient(to left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.555)),
+    url('images/pexels-kindel-media-7688460.jpg');
+    color: white;
+    
+}
+.squires{
+    background: #ff3d4d;
+    clip-path: polygon(25% 0%, 75% 0%, 91% 50%, 74% 100%, 25% 100%, 7% 50%);
+    color: white;
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+   
+
+}
+.polygone{
+text-align: center;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+.polygone h1{
+   font-weight: bold;
+   font-size: 40px;
+}
+/* ----------------------------------- card_help ------------------  */
+.card{
+    margin-top: 50px!important;
+    margin: 0 auto;
+}
+.academic_help{
+    text-align: center;
+    
+}
+.one img{
+    margin-top: 20px;
+   
+}
+/* ------------------------------ coursel -------------------  */
+.carousel{
+    background: #232323;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.carousel-item h4{
+    width: 50%;
+    margin: 0 auto;
+}
+
+
